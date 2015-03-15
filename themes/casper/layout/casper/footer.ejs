@@ -1,0 +1,10 @@
+
+<footer class="site-footer">
+  <% if (config.rss || config.feed) {  %>
+  <a class="subscribe icon-feed" href="<%= (config.rss || config.feed.path) %>"><span class="tooltip">Subscribe!</span></a>
+  <% } %>
+  <div class="inner">
+     <section class="copyright"><a href="<%- config.root %>"><%- config.title %></a></section>
+     <section class="poweredby">Опубликовано с помощью <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>

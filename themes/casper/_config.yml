@@ -1,0 +1,13 @@
+# config
+cover: /pictures/bg-blog.jpg
+logo: /pictures/ava.png
+bio: 'Разработчик интерфейсов в компании Teoxoft'
+
+# Content
+excerpt_link: Подробнее
+
+# Disqus
+disqus_shortname: kuflashru
+
+# Miscellaneous
+rss:
